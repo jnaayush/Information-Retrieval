@@ -21,7 +21,7 @@ eg.
 	
 	python webCrawler.py Time_zone
 	python webCrawler.py Electric_car
-        python webCrawler.py Carbon_footprint
+       python webCrawler.py Carbon_footprint
 
 
 Result:
@@ -70,5 +70,7 @@ eg.
 Depth reached :
 
 Task 1 : 3
+
 Task 2 : 3
+
 Task 3 : 6
