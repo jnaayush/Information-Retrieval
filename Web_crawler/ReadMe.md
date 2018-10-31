@@ -1,11 +1,10 @@
 ReadMe
 
 Dependencies:
-
-	-BeautifulSoup
-	-requests
-	-time
-	-sys
+	- BeautifulSoup
+	- requests
+	- time
+	- sys
 
 
 ## Task 1:
