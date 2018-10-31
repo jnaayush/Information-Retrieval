@@ -1,0 +1,7 @@
+The files that are populated by the in task 1 have the links sorted in order of depths. In other words the links are
+further away from the seed as we go down. I implemented a BFS traversal, out of the all the urls, the ones which were
+found first are traversed first and hence the closeness is maintained throughout (top being closest and bottom being the
+farthest).
+
+When i'm merging the files, I make use of this closeness and picks up top 1/3 urls from each file and populate into the
+merged list, keeping in check that the repeats are not allowed.

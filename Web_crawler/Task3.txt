@@ -1,0 +1,18 @@
+For focused crawling, I considered these as targets or positive identification of urls:
+1. when the word is present in the url and anchor text in the following manner:
+    1.1. variation of word containing capital characters are present
+    1.2. word start with the focus text
+
+To handle these variations in url:
+1. I made the complete url in lower case
+2. split the url around '_' as they new words are separated by '_' and also split across '-'
+3. for every word in splitted url ,I checked if the word began with focus text
+4. I added unprocessed url to the list if the above condition was met.
+
+
+To handle these variations in anchor text:
+1. I made the complete text in lower case
+2. split the url around ' ' as they new words are separated by ' '
+3. for every word in splitted text ,I checked if the word began with focus text
+4. I added unprocessed url to the list if the above condition was met.
+
