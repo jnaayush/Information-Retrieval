@@ -13,9 +13,13 @@ Dependencies:
 Files:
 1. webCrawler.py
 
-Usage : python webCrawler.py [article]
+Usage : 
+	
+	python webCrawler.py [article]
 
-eg. 	python webCrawler.py Time_zone
+eg. 	
+	
+	python webCrawler.py Time_zone
 	python webCrawler.py Electric_car
         python webCrawler.py Carbon_footprint
 
@@ -29,9 +33,13 @@ Output has 3 columns:
 
 2. DownloadHTML.py
 
-Usage: python DownloadHTML.py [filename]
+Usage: 
 
-eg.    python DownloadHTML.py links_Time_zone.csv
+	python DownloadHTML.py [filename]
+
+eg.    
+
+	python DownloadHTML.py links_Time_zone.csv
 
 It took way too long to fetch every link so I separated the get Links from the download html
 
@@ -39,17 +47,25 @@ It took way too long to fetch every link so I separated the get Links from the d
 
 File: mergeLinks.py
 
-Usage: python mergeLinks.py [file1] [file2] [file3]
+Usage: 
+	
+	python mergeLinks.py [file1] [file2] [file3]
 
-eg. python mergeLinks.py links_Time_zone.csv links_Electric_car.csv links_Carbon_footprint.csv
+eg. 
+	
+	python mergeLinks.py links_Time_zone.csv links_Electric_car.csv links_Carbon_footprint.csv
 
 Task 3:
 
 File: focusedCrawling.py
 
-Usage: python focusedCrawling.py [article] [focustext]
+Usage: 
+	
+	python focusedCrawling.py [article] [focustext]
 
-eg.    python focusedCrawling.py Carbon_footprint green
+eg.    
+	
+	python focusedCrawling.py Carbon_footprint green
 
 Depth reached :
 
