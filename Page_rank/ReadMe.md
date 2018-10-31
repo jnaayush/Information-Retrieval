@@ -1,16 +1,18 @@
 ReadMe
 
 Dependencies:
-1.BeautifulSoup
-2.requests
-3.sys
-4.os
-5.Collections
+  
+  - BeautifulSoup
+  - requests
+  - sys
+  - os
+  - Collections
 
 
 1. DirectedGraphG1.py
 
-Usage: python DirectedGraphG1.py
+Usage: 
+      python DirectedGraphG1.py
 
 Needs:
 1.Files that has all url from HW1
