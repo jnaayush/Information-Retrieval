@@ -11,7 +11,7 @@ Dependencies:
 4.sys
 
 
-Task 1:
+##Task 1:
 
 Files:
 1. webCrawler.py
@@ -33,7 +33,7 @@ eg.    python DownloadHTML.py links_Time_zone.csv
 
 It took way too long to fetch every link so I separated the get Links from the download html
 
-Task 2:
+##Task 2:
 
 File: mergeLinks.py
 
