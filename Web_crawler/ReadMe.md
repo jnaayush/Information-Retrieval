@@ -1,9 +1,13 @@
 ReadMe
 
 Dependencies:
+
 1.BeautifulSoup
+
 2.requests
+
 3.time
+
 4.sys
 
 
